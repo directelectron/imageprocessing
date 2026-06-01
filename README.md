@@ -7,7 +7,7 @@ This README.md file contains information about:
 * [Cryo-EM Single Particle Analysis (SPA)](#cryo-em-spa)
   * [Convert MRC files to TIFF LZW (MRCtoLZW.bat)](#convert-mrc-files-to-tiff-lzw)
   * [Get beam shift from MDOC files (mdoc_xml.py)](#get-beam-shift-from-mdoc-files)
-  * [Fix CryoSPARC RBMC dose weighting (fix_cs_dw.py)](#fix-cryosparc-rmbc-dose-weighting)
+  * [Fix CryoSPARC RBMC dose weighting (fix_cs_dw.py)](#Fix-CryoSPARC-RBMC-dose-weighting)
 
 ## Cryo-EM SPA
 
