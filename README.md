@@ -5,19 +5,19 @@ This repository contains a collection of scripts, code snippets, and documentati
 This README.md file contains information about:
 
 * [Cryo-EM Single Particle Analysis (SPA)](#cryo-em-spa)
-  * [MRCtoLZW](#mrctolzw)
-  * [mdoc_xml](#mdoc_xml)
-  * [fix_cs_dw](#fix_cs_dw)
+  * [Convert MRC files to TIFF LZW (MRCtoLZW.bat)](#convert-mrc-files-to-tiff-lzw)
+  * [Get beam shift from MDOC files (mdoc_xml.py)](#get-beam-shift-from-mdoc-files)
+  * [Fix CryoSPARC RBMC dose weighting (fix_cs_dw.py)](#fix-cryosparc-rmbc-dose-weighting)
 
 ## Cryo-EM SPA
 
-### MRCtoLZW
+### Convert MRC files to TIFF LZW
 
 [MRCtoLZW.bat](CryoEM-SPA/MRCtoLZW.bat)
 
 This Windows batch script uses mrc2tif from [IMOD](https://bio3d.colorado.edu/imod/) to convert all MRC files in the current working directory to TIFF LZW compressed files. Obviously, you must have IMOD installed.
 
-### mdoc_xml
+### Get beam shift from MDOC files
 
 [mdoc_xml.py](CryoEM-SPA/mdoc_xml.py)
 
@@ -25,7 +25,7 @@ This Python script creates XML files containing beam-shift information for each 
 - Read MDOC files that were saved with MRC files instead of TIF files.
 - Add an option to output XML files with .mrc.xml extension instead of the default .tif.xml.
 
-### fix_cs_dw
+### Fix CryoSPARC RBMC dose weighting
 
 [fix_cs_dw.py](CryoEM-SPA/fix_cs_dw.py)
 
